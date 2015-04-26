@@ -1,0 +1,18 @@
+// configuring UART2
+Connect the tower kit to the computer through a USB port.
+Make sure that you have the  processor expert project we have been using for the previous projects.
+Ensure that the perspective open is the C/C++.
+Then on processor expert components  navigate to >>CPU internal peripherals.
+							>>communication
+							>>Asynchroserial
+then rightclick on Asyncroserial and select add components.
+You have to set the device to UART2
+Then got to RxD and select [!] PTD2/SPI0_SOUT/UART2_RX/FB_AD4
+And on TxD select [!] PTD3/SPI0_SIN/UART2_TX/FB_AD3
+Thenclick generate code.
+Ensure that your BITIO is confugured then debug the code
+
+
+//coming soon, The Ethernet peripheral.
+
+
